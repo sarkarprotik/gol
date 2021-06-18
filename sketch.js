@@ -10,10 +10,10 @@ function make2DArray(columns, rows) {
   let grid;
   let columns;
   let rows;
-  let resolution = 10;
+  let resolution = 8;
   
   function setup() {
-    createCanvas(600, 600);
+    createCanvas(800, 800);
     columns = width / resolution;
     rows = height / resolution;
   
