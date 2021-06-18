@@ -13,7 +13,7 @@ function make2DArray(columns, rows) {
   let resolution = 10;
   
   function setup() {
-    createCanvas(displayWidth, displayHeight,400);
+    createCanvas(displayWidth, displayHeight);
     columns = width / resolution;
     rows = height / resolution;
   
