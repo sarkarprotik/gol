@@ -27,14 +27,14 @@ function make2DArray(columns, rows) {
   
   function draw() {
     //frameRate(2)
-    background(0);
+    background("white");
   
     for (let i = 0; i < columns; i++) {
       for (let j = 0; j < rows; j++) {
         let x = i * resolution;
         let y = j * resolution;
         if (grid[i][j] == 1) {
-          fill(255);
+          fill(100);
           stroke(0);
           rect(x, y, resolution - 1, resolution - 1);
         }
